@@ -58,7 +58,7 @@ return array(
 			'dryRun' => false
 		),
 		// uncomment the following to enable URLs in path-format
-		
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=>false,
@@ -69,7 +69,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-		
+
 		/*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
@@ -77,10 +77,10 @@ return array(
 		*/
 		// uncomment the following to use a MySQL database
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=banhda',
+			'connectionString' => 'mysql:host=localhost;dbname=freshfoo_banhda',
 			'emulatePrepare' => true,
 			'username' => 'root',
-			'password' => '',
+			'password' => 'root',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
